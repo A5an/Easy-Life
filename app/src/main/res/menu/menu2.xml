@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Instructions"
+        android:id="@+id/dialog"
+        android:icon="@drawable/ic_baseline_text_snippet_24"
+        app:showAsAction="ifRoom"   />
+    <item
+        android:id="@+id/star"
+        android:title="Rate us!"
+        android:icon="@drawable/ic_baseline_star_rate_24"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/set"
+        android:title="Settings"
+        android:icon="@drawable/ic_baseline_settings_24"
+        app:showAsAction="ifRoom"
+        />
+
+
+</menu>

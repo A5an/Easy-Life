@@ -1,0 +1,51 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+
+    <style name="Theme.EasyLife" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_200</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">#BD9A06</item>
+        <!-- Customize your theme here. -->
+
+    </style>
+
+    <style name="rate" parent="Widget.AppCompat.RatingBar">
+        <item name="colorControlNormal">#4D000000</item>
+        <item name="colorControlActivated">@color/dialog_color_1</item>
+    </style>
+    <!-- Dark  -->
+    <!-- background  -->
+    <style name="SCREEN">
+        <item name="android:background">#232323</item>
+    </style>
+    <style name="BAR">
+        <item name="android:background">#BD9A06</item>
+    </style>
+    <style name="BUTTON">
+        <item name="android:background">#008080</item>
+        <item name="android:textColor">#FFF</item>
+    </style>
+    <style name="BUTTON2">
+        <item name="android:background">@drawable/round_back_browm_6</item>
+        <item name="android:textColor">#FFF</item>
+    </style>
+    // text back
+    <style name="TEXT">
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <style name="lock">
+        <item name="android:icon">@drawable/ic_baseline_lock_whight</item>
+    </style>
+    <style name="open">
+        <item name="android:icon">@drawable/ic_baseline_lock_open_whight</item>
+    </style>
+
+
+</resources>
